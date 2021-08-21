@@ -1,0 +1,91 @@
+@media (min-width: 980px) {
+    .content__primary {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* PC */
+@media (min-width: 1024px) {
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .header {
+        overflow: hidden;
+    }
+
+    .header__search {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: inline-block;
+    }
+    
+    .header__list-link {
+        padding: 1px 6px;
+    }
+
+    .header__list-item {
+        display: block;
+    }
+
+    /* fix mibile */
+    .content__about-item {
+        display: block;
+    }
+
+    .content__about-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .text-p {
+        width: 100%;
+        padding: 0;
+        margin-top: 2.5rem;
+    }
+
+    .content__work-img {
+        display: block;
+    }
+
+    .contact__info {
+        display: block;
+    }
+
+    .content__about-info,
+    .contact__map,
+    .content__work-item,
+    .contact__info-list, 
+    .contact__btn,
+    .btn-message {
+        width: 100%;
+    }
+
+    .slider__text {
+        bottom: 20px;
+        font-size: 1.5rem;
+    }
+    
+    .slider__text p {
+        max-width: 200px;
+        margin: 0 auto;
+        line-height: 1.4;
+    }
+
+    .slider__text h3 {
+        font-size: 1.7rem;
+    }
+
+    .contact__input--info {
+        display: block;
+    }
+
+    .half-input {
+        width: 100%;
+        margin-top: 8px;
+    }
+}

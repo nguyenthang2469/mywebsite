@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.content__primary {
+    padding: 64px 16px;
+    max-width: 98rem;
+}
+
+.content__heading {
+    text-align: center;
+    font-size: 2.4rem;
+    margin: 10px 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.content__slogan {
+    padding: 20px 0;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.btn {
+    border: none;
+    font-size: 1.5rem;
+}
