@@ -66,8 +66,9 @@
     }
 
     .slider__text {
-        bottom: 20px;
+        bottom: 50%;
         font-size: 1.5rem;
+        transform: translateY(50%);
     }
     
     .slider__text p {

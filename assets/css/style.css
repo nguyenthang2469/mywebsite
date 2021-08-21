@@ -67,8 +67,9 @@
 .slider {
     position: relative;
     margin-top: 4.2rem;
-    padding-top: 50%;
-    background: url("../img/slider.jpg") no-repeat top center/ cover;
+    width: 100%;
+    background: url("../img/slider.jpg") no-repeat center/ cover;
+    min-height: 400px;
     filter: grayscale(0.2);
     opacity: 0.8;
 }
